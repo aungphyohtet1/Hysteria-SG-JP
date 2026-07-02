@@ -31,25 +31,99 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: 🇺🇸US_1|2.7MB/s
+- multiplexing: MULTIPLEXING_LOW
+  name: 🇺🇸US_1|3.4MB/s
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- encryption: none
+  name: 🇺🇸US_2|2.7MB/s
   network: ws
-  port: 443
-  server: support.zoom.us
-  servername: support.zoom.us.yxls.eu.cc
+  port: '8880'
+  server: 104.254.140.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime54.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_3|1.6MB/s
+  network: ws
+  port: '8880'
+  server: 185.148.106.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime54.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
+        Safari/537.36
+    path: ''
+  xudp: true
+- encryption: none
+  name: 🇺🇸US_4|2.0MB/s
+  network: ws
+  port: '8080'
+  server: 198.41.215.140
+  servername: kourosh-asli-ncjeuv.kourosh-gnlroc.workers.dev
+  type: vless
+  udp: true
+  uuid: 764ce064-b6e7-4279-a014-4547883eee15
+  ws-opts:
+    headers:
+      Host: kourosh-asli-ncjeuv.kourosh-gnlroc.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /kouroshasli_panel
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_5|2.6MB/s
+  network: ws
+  port: '443'
+  server: 162.159.46.222
+  servername: racknerd.henso.wiki
   tls: true
   type: vless
   udp: true
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
+  uuid: 9fb8b6a8-5094-42e3-a949-26bc63551345
   ws-opts:
     headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: /sg-amz
-- client-fingerprint: chrome
-  name: 🇺🇸US_2|2.4MB/s
+      Host: racknerd.henso.wiki
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /9fb8b6a8-5094-42e3-a949-26bc63551345-vless
+  xudp: true
+- name: 🇺🇸US_6|2.6MB/s
   network: ws
-  port: 443
-  server: support.zoom.us
+  port: '8880'
+  server: 104.16.8.66
+  type: vless
+  udp: true
+  uuid: 2f5c68d9-182f-4d8b-ab53-9358a04387b7
+  ws-opts:
+    headers:
+      Host: broad-truth-e988.258-217.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_7|2.8MB/s
+  network: ws
+  port: '443'
+  server: 170.114.45.6
   servername: support.zoom.us.yxls.eu.cc
   tls: true
   type: vless
@@ -58,110 +132,9 @@ proxies:
   ws-opts:
     headers:
       Host: support.zoom.us.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /sg-melbi
-- multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_3|2.8MB/s
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: 🇺🇸US_4|2.1MB/s
-  network: ws
-  port: '443'
-  server: ansooyefilter-channel.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3aff2f4c-cbe7-b6f1-d1b2-86ad0a8d78c2
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.110 Safari/537.36
-    path: /ws/3aff2f4c-cbe7-b6f1-d1b2-86ad0a8d78c2
-  xudp: true
-- name: 🇺🇸US_5|3.2MB/s
-  password: ''
-  port: '1080'
-  server: 142.248.80.110
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_6|2.5MB/s
-  network: ws
-  port: '443'
-  server: 170.114.46.6
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /sg-amz
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_7|1.6MB/s
-  network: ws
-  port: '443'
-  server: 170.114.45.6
-  servername: support.zoom.us.yxls.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-      User-Agent: Mozilla/5.0 (X11; U; Linux i586; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: /sg-amz
-  xudp: true
-- name: 🇺🇸US_8|3.6MB/s
-  network: ws
-  port: '8880'
-  server: 172.64.88.168
-  type: vless
-  udp: true
-  uuid: b4883d27-3151-4adf-92b1-841c0dccd1ea
-  ws-opts:
-    headers:
-      Host: damp-surf-aacf.296-8ed.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: 🇺🇸US_9|2.5MB/s
-  password: ''
-  port: '9002'
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_10|2.7MB/s
-  network: ws
-  port: '8880'
-  server: 104.17.21.32
-  type: vless
-  udp: true
-  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
-  ws-opts:
-    headers:
-      Host: fragrant-shape-07a0.269-144.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
