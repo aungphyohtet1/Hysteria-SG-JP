@@ -31,46 +31,96 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.1wRO2UUgp1vx1XIx2wZLuYDC7N6a5F7SRlLrMp9PGwg
-  name: 🇺🇸US_1|1.8MB/s
-  network: xhttp
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_1|2.4MB/s
+  network: tcp
   port: '443'
-  server: www.speedtest.net
-  servername: sor.syaedu.com
+  reality-opts:
+    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
+    short-id: '!!str befa80d97af98b74'
+  server: 38.244.20.214
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: ccebf44c-e3ad-4092-8b35-41179a9dfa23
-  xhttp-opts:
-    host: sor.syaedu.com
-    mode: auto
-    path: /sor
-    x-padding-bytes: 100-1000
+  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
   xudp: true
+- name: 🇺🇸US_2|2.5MB/s
+  network: ws
+  port: 443
+  server: 120.55.183.176
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_2|3.1MB/s
+  name: 🇺🇸US_3|1.8MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: 🇺🇸US_3|2.0MB/s
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  name: 🇺🇸US_4|1.7MB/s
   network: ws
-  port: '8880'
-  server: cloudflare-ech.com
+  port: '443'
+  server: x4g-production-40db.up.railway.app
+  servername: x4g-production-40db.up.railway.app
+  tls: true
   type: vless
   udp: true
-  uuid: e7ca2c1c-9b47-4ef0-9d5e-2be26a86ffc1
+  uuid: 25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
   ws-opts:
     headers:
-      Host: nameless-disk-194d.485.workers.dev
+      Host: x4g-production-40db.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws/25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: 🇺🇸US_5|2.6MB/s
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: 18.221.163.56
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: 🇺🇸US_6|2.8MB/s
+  password: ''
+  port: '443'
+  server: 38.28.193.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_7|1.7MB/s
+  network: ws
+  port: '8880'
+  server: anydesk.com
+  type: vless
+  udp: true
+  uuid: b85c8be2-3109-4b8a-aa82-f0d8fe06f5ae
+  ws-opts:
+    headers:
+      Host: young-dust-b8d9.31-8ba.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
     path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
 - client-fingerprint: safari
