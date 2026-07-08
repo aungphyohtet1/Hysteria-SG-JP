@@ -6,7 +6,7 @@ proxies:
       - rubika.ir,igap.net,splus.ir,skyroom.online
     path:
     - /
-  name: 🇫🇷FR_1|2.0MB/s
+  name: 🇫🇷FR_1|3.1MB/s
   network: http
   port: '700'
   server: admin.console.support.admin.iranvatanam.com
@@ -15,10 +15,10 @@ proxies:
   uuid: 887c8eae-500f-4cda-8db9-e951ffba141f
   xudp: true
 - cipher: aes-256-cfb
-  name: 🇫🇷FR_2|2.3MB/s
+  name: 🇫🇷FR_2|3.8MB/s
   password: amazonskr05
   port: '443'
-  server: 15.188.74.101
+  server: 15.236.43.191
   type: ss
   udp: true
 - name: FR_speednode_0004
