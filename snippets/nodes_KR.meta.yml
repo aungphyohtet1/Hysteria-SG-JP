@@ -1,44 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  name: 🇰🇷KR_1|3.7MB/s
-  password: XG59623478
-  port: '443'
-  server: faithful-panther.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇰🇷KR_2|3.3MB/s
-  password: XG59623478
-  port: 443
-  server: adapting-giraffe.rooster465.autos
+- name: 🇰🇷KR_1|2.1MB/s
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
   tls: true
-  type: trojan
+  type: http
   udp: true
-- name: 🇰🇷KR_3|3.5MB/s
-  password: XG59623478
-  port: 443
-  server: exotic-chicken.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇰🇷KR_4|3.8MB/s
-  password: XG59623478
-  port: 443
-  server: rich-gelding.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇰🇷KR_5|4.6MB/s
-  password: XG59623478
-  port: 443
-  server: wealthy-bengal.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
+  username: test
 - name: KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 31433
