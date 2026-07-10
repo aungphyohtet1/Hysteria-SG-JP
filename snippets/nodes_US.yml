@@ -1,5 +1,5 @@
 proxies:
-- name: 🇺🇸US_7|2.4MB/s
+- name: 美国|@ripaojiedian
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 17005
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇺🇸US_8|2.8MB/s
+- name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -24,26 +24,21 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇺🇸US_4|3.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 3.14.249.239
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_13|2.0MB/s
-  password: amazonskr05
-  port: '443'
-  server: 18.191.147.2
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_14|2.5MB/s
+  name: 🇺🇸US_1|1.9MB/s
   password: amazonskr05
   port: '443'
   server: 3.16.130.237
   type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇺🇸US_2|2.6MB/s
+  network: tcp
+  password: BxceQaOe
+  port: '34638'
+  server: 18.162.154.153
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
 - name: US_speednode_0063
   network: ws
