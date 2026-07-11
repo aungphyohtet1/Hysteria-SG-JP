@@ -8,15 +8,16 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 2
   cipher: auto
-  name: 'B - 🇸🇬 SG 16 TG: @nodpai'
+  name: ❓Other_1|3.5MB/s
   network: tcp
   port: 30845
   server: v45.hdacd.com
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
