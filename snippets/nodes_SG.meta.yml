@@ -39,34 +39,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬SG_1|4.0MB/s
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+- name: 🇸🇬SG_1|2.5MB/s
+  password: IQ68037294
   port: 443
-  server: 188.164.248.122
+  server: internal-sunbird.rooster465.autos
   skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
+  sni: internal-sunbird.rooster465.autos
   type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- client-fingerprint: chrome
-  name: 🇸🇬SG_2|3.3MB/s
-  network: tcp
-  password: BxceQaOe
-  port: '9149'
-  server: 18.163.84.233
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇸🇬SG_3|2.8MB/s
+  name: 🇸🇬SG_2|2.8MB/s
   network: ws
   port: '443'
-  server: 162.159.26.86
+  server: cf.008500.xyz
   servername: t1s1.rittbo.kdns.fr
   tls: true
   type: vless
@@ -75,7 +60,126 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_3|2.6MB/s
+  network: ws
+  port: '443'
+  server: 162.159.14.181
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_4|4.5MB/s
+  network: ws
+  port: '443'
+  server: 162.159.0.46
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_5|3.4MB/s
+  network: ws
+  port: '443'
+  server: 104.18.47.113
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_6|1.9MB/s
+  network: ws
+  port: '8443'
+  server: 172.64.153.57
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_7|4.2MB/s
+  network: ws
+  port: '443'
+  server: staticdelivery.nexusmods.com
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_8|4.8MB/s
+  network: ws
+  port: '8443'
+  server: 162.159.34.128
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
+  xudp: true
+- client-fingerprint: random
+  name: 🇸🇬SG_9|3.4MB/s
+  network: ws
+  port: '443'
+  server: 172.64.156.0
+  servername: work.evany.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 344caaf8-b64a-43c9-b37c-8b582d4bf08d
+  ws-opts:
+    headers:
+      Host: work.evany.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /proxyip=ProxyIP.US.cmliussss.net
   xudp: true

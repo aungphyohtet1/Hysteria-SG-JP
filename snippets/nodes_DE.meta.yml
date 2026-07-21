@@ -69,19 +69,124 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_1|1.5MB/s
-  network: ws
+  name: 🇩🇪DE_1|2.9MB/s
+  network: xhttp
   port: '443'
-  server: 162.159.38.119
-  servername: telegram.mxgrid.xyz
+  server: 199.232.78.150
+  servername: global.fastly.com
   tls: true
   type: vless
   udp: true
-  uuid: a3f8f570-3e53-4252-a01f-f95156680e39
+  uuid: 9d008775-fcfd-48f1-a8de-d20bbf460e18
+  xhttp-opts:
+    host: Vistitrohamfastvipnexttt.net
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_2|1.8MB/s
+  network: ws
+  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
+  port: '443'
+  server: rem.dtr.kotokopolb.ru
+  skip-cert-verify: false
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: telegram.mxgrid.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /-----MxGriD-----
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/44.0.2403.157 Safari/537.36
+    path: /trojan-ws
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_3|3.1MB/s
+  network: xhttp
+  port: '443'
+  server: 199.232.77.215
+  servername: global.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d008775-fcfd-48f1-a8de-d20bbf460e18
+  xhttp-opts:
+    host: Vistitrohamfastvipnexttt.net
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_4|3.3MB/s
+  network: tcp
+  port: '58155'
+  server: epxteam.443-ep.a.l.f.a.epxteam.ir
+  type: vless
+  udp: true
+  uuid: b75142e8-834c-4f7c-a71f-d89c87256a79
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_5|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 147.45.47.17
+  servername: ai.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a77a470-315c-493d-b690-59b814a804cb
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_6|2.0MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 3EuP8uX9rTJ-qw6O1hg2KWgD1fbY73-ZfT1Q8I_Srkw
+    short-id: '!!str 693ee677b7bc4ad1'
+  server: nl-1-tb.124515.xyz
+  servername: nl-1-tb.124515.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_7|2.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: dqgIhU45MGa6nWIwRU-j9LDYVOQXliSQAoI1Foe4cyI
+    short-id: '!!str 11ffa74edffc01aa'
+  server: 93.152.224.198
+  servername: akenai.kyras.pw
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_8|2.1MB/s
+  network: xhttp
+  port: '8443'
+  server: 162.159.38.119
+  servername: o.vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: o.vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
   xudp: true
