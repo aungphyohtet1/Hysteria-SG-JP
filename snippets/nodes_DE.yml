@@ -1,15 +1,16 @@
 proxies:
 - client-fingerprint: chrome
-  name: 🇩🇪DE_2|1.8MB/s
+  name: 🇩🇪DE_3|2.4MB/s
   network: ws
   password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
   port: '443'
-  server: rem.dtr.kotokopolb.ru
+  server: 103.27.157.97
   skip-cert-verify: false
+  sni: rem.dtr.kotokopolb.ru
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /trojan-ws
