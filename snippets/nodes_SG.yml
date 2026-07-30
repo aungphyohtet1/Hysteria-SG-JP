@@ -1,5 +1,5 @@
 proxies:
-- name: 🇸🇬SG_2|3.9MB/s
+- name: 新加坡|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_3|3.1MB/s
+- name: HK_speednode_0011
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -23,3 +23,4 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
