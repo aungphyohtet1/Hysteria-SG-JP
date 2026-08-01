@@ -1,4 +1,42 @@
 proxies:
+- name: 'A - 🇰🇷 KR 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: 'A - 🇰🇷 KR 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- client-fingerprint: chrome
+  name: 🇰🇷KR_1|1.3MB/s
+  network: ws
+  port: 11019
+  server: 211.104.99.209
+  servername: sni.ehb.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+- name: US_speednode_0150
+  port: 50161
+  server: 168.107.13.220
+  tls: false
+  type: socks5
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: KR_speednode_0015
