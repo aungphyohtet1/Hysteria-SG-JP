@@ -1,50 +1,31 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇪SE_1|2.3MB/s
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0
-    short-id: '!!str '
-  server: 170.168.99.3
-  servername: cdn.steamstatic.com
+  name: SE_speednode_0236
+  network: ws
+  port: 443
+  server: 193.181.210.149
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: 🇸🇪SE_2|2.6MB/s
-  network: xhttp
-  port: '443'
-  server: sw1.tunnelx.space
-  servername: sw1.tunnelx.space
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
+- client-fingerprint: chrome
+  name: SE_speednode_0237
+  network: ws
+  port: 443
+  server: 16.16.207.129
+  servername: sni.ehb.cc.cd
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  xhttp-opts:
-    mode: auto
-    path: /assets
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇸🇪SE_3|2.0MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SUTv6bVuL6TnWcPGf03-1QFmJ8Q_ISoA1WIajvct32M
-    short-id: '!!str '
-  server: 207.2.120.229
-  servername: sw-new.boxypn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
-  xudp: true
+  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  ws-opts:
+    headers:
+      Host: sni.ehb.cc.cd
+    path: /proxyip=ProxyIP.CMLiussss.net
