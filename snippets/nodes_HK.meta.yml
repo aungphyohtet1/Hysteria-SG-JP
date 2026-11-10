@@ -66,10 +66,3 @@ proxies:
   tls: false
   type: vless
   uuid: 206a8ff5-75a9-4191-8688-9e107d6f6c9d
-- name: 🇭🇰HK_1|1.1MB/s
-  password: None
-  port: 31343
-  server: 120.232.204.58
-  skip-cert-verify: true
-  tls: true
-  type: http

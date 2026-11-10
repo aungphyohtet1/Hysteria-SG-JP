@@ -75,18 +75,39 @@ proxies:
     headers:
       Host: speedtest.danfengno1.kdns.fr
     path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
+- name: 🇸🇬SG_1|1.8MB/s
+  password: '!!str 8888'
+  port: 1080
+  server: 47.236.168.243
+  skip-cert-verify: true
+  type: socks5
+  username: '8888'
+- name: 🇸🇬SG_2|3.3MB/s
+  port: 9443
+  server: 149.88.99.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇸🇬SG_1|3.5MB/s
+  name: 🇸🇬SG_3|1.0MB/s
   network: tcp
-  port: '46105'
+  port: '46957'
   reality-opts:
-    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-    short-id: '!!str 28f5c1f8f98a'
+    public-key: 1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI
+    short-id: '!!str 8f6683a234d3'
   server: zfapi.zalolink.com
-  servername: www.lamer.com.sg
+  servername: psstatic.cdn.bcebos.com
   tls: true
   type: vless
   udp: true
   uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
   xudp: true
+- name: 🇸🇬SG_4|1.8MB/s
+  password: None
+  port: '9090'
+  server: 167.99.74.174
+  skip-cert-verify: true
+  type: http
+  username: ''
