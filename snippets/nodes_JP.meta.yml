@@ -77,9 +77,9 @@ proxies:
     headers:
       Host: cdn-jp.skyvora.app
     path: '%2Fpmcxbjzdau6'
-- name: 🇯🇵JP_1|2.0MB/s
+- name: 🇯🇵JP_1|1.2MB/s
   password: 'null'
-  port: '40583'
+  port: 40583
   server: 120.232.204.58
   skip-cert-verify: true
   tls: true
