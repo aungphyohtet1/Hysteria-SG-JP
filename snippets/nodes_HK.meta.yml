@@ -77,7 +77,7 @@ proxies:
     headers:
       Host: cdn-hk.skyvora.app
     path: '%2Fzmeadqv620k'
-- name: 🇭🇰HK_1|3.0MB/s
+- name: 🇭🇰HK_1|1.2MB/s
   password: ''
   port: '8443'
   server: 38.76.140.254
