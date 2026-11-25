@@ -61,18 +61,6 @@ proxies:
     headers:
       Host: senflarelink-node-m3bfbn.pages.dev
     path: '%2F'
-- name: 🇩🇪DE_2|1.1MB/s
-  password: ''
-  port: '443'
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sni: 172.64.68.89
-  sub_tag: P002-260618
-  tls: true
-  type: http
-  udp: true
-  username: ''
-  x-toolall-mihomo: true
 - name: DE_speednode_0003
   password: None
   port: 443
