@@ -24,29 +24,10 @@ proxies:
       Host: senflarelink-node-nwz76h.pages.dev
     path: /
     v2ray-http-upgrade: false
-- client-fingerprint: chrome
-  flow: ''
-  name: 韩国|@ripaojiedian
-  network: ws
-  port: 12101
-  server: 14.44.19.57
-  servername: senflarelink-node-nwz76h.pages.dev
-  tls: true
-  type: vless
-  uuid: b69cf773-da16-486e-afce-a45b94f998b3
-  ws-opts:
-    headers:
-      Host: senflarelink-node-nwz76h.pages.dev
-    path: '%2F'
-- name: 🇰🇷KR_1|2.0MB/s
-  port: 1080
-  server: 59.11.209.162
-  skip-cert-verify: true
-  type: socks5
-- name: 🇰🇷KR_2|1018KB/s
+- name: 🇰🇷KR_1|1.1MB/s
   password: ''
   port: '1080'
-  server: 183.106.215.208
+  server: 43.155.128.61
   skip-cert-verify: true
   type: socks5
   username: ''

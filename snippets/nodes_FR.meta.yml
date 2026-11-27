@@ -7,6 +7,14 @@ proxies:
   sni: vpn-fr-001.fastervpn.world
   tls: false
   type: hysteria2
+- name: 🇫🇷FR_2|2.1MB/s
+  password: 'null'
+  port: '443'
+  server: 84.235.228.156
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - name: FR_speednode_0007
   port: 6103
   server: 87.98.174.157
