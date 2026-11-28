@@ -90,78 +90,84 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_4|2.3MB/s
+  name: 意大利|@ripaojiedian
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
+  port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 意大利2|@ripaojiedian
+  name: 🇮🇹IT_1|3.3MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
+  port: '19999'
   server: 202.50.253.18
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_1|3.0MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.27
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰HK_1|1010KB/s
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  port: '28014'
+  server: waic.pro.main.sys-metric-report.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_2|2.8MB/s
+  name: 🇮🇹IT_2|2.4MB/s
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: '19999'
+  server: 202.50.253.36
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 🇮🇹IT_3|2.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: '19999'
   server: 202.50.253.45
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_3|3.8MB/s
+  name: 🇮🇹IT_4|3.2MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: '19999'
   server: 202.50.253.54
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_5|2.1MB/s
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: '19999'
-  server: 202.50.253.72
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 🇮🇹IT_6|2.7MB/s
+  name: 🇮🇹IT_5|3.1MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: '19999'
   server: 202.50.253.81
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_7|2.8MB/s
+  name: 🇮🇹IT_6|3.0MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: '19999'
   server: 202.50.253.90
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 🇮🇹IT_8|1.5MB/s
+  name: 🇮🇹IT_7|2.7MB/s
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: '19999'
   server: 202.50.253.99
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: 🇩🇪DE_3|2.3MB/s
+  network: tcp
+  port: '2080'
+  server: Ir.wbzo.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b7e3e8af-d1ca-45da-a95f-8b9ad77398b1
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇧🇬BG_1|3.5MB/s
-  password: 5acf789dd7c2bf40a670a342800eff57003c2b164c3c8f53
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: bulgaria.astroapps.io
-    mode: websocket
-    path: /6318c86175d20088b16c98a7
-    tls: true
-  port: '443'
-  server: bulgaria.astroapps.io
+  name: 🇭🇰HK_2|2.8MB/s
+  password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
+  port: '28014'
+  server: 143.20.71.68
   type: ss
   udp: true
